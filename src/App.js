@@ -1,5 +1,5 @@
 import React from 'react';
-import { Admin, Resource, ListGuesser } from 'react-admin';
+import { Admin, Resource } from 'react-admin';
 import fakeRestProvider from 'ra-data-fakerest';
 import data from './data';
 import { UserList } from './UserList';
