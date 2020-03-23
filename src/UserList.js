@@ -9,6 +9,8 @@ import {
   TextInput
 } from 'react-admin';
 
+import CustomUrlField from './CustomUrlField';
+
 import './UserList.css';
 
 const UserFilter = props => (
@@ -58,7 +60,7 @@ export const UserList = props => (
       <TextField source='name' />
       <TextField source='username' />
       <EmailField source='email' />
-      <UrlField label='Company' source='website' />
+      <CustomUrlField label='Company' source='website' />
     </Datagrid>
   </List>
 );
